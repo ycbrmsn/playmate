@@ -1,0 +1,13 @@
+.headerlist {
+  float: right;
+}
+.headerlist-item {
+  margin: 0; padding: 0 10px; float: left; position: relative;
+  &:not(:last-child):after {
+    display: inline-block; content: ''; width: 1px; height: 19px; background-color: #fff;
+    position: absolute; right: 0;
+  }
+}
+.headerlist-itema {
+  text-decoration: none; color: #fff;
+}
