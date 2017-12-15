@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import store from './vuex/store.js'
 import ElementUI from 'element-ui'
+import $ from 'jquery'
+import { domHelper } from '@/js/commonhelper'
 import 'element-ui/lib/theme-chalk/index.css'
 import './css/main.less'
 
@@ -19,4 +21,10 @@ new Vue({
   store,
   template: '<App/>',
   components: { App }
+})
+
+$(function () {
+  $(window).resize(function () {
+    domHelper.adapteFrame()
+  })
 })

@@ -1,6 +1,6 @@
 <template>
   <div>
-    用户中心
+    舞蹈列表
   </div>
 </template>
 

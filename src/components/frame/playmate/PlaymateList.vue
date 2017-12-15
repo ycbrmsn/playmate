@@ -1,6 +1,6 @@
 <template>
   <div>
-    用户中心
+    玩伴列表
   </div>
 </template>
 

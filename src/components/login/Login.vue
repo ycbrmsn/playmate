@@ -1,6 +1,7 @@
 <template>
   <div>
     <el-card class="logincard">
+      <h1 class="logincard-title">用户登录</h1>
       <el-input v-model="input" :clearable="true" placeholder="请输入用户名" class="littlegap__top"></el-input>
       <el-input type="password" v-model="input" :clearable="true" placeholder="请输入密码" class="littlegap__top"></el-input>
       <el-button class="littlegap__top littlegap__bottom matchbutton" @click="login()">登录</el-button>
